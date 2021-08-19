@@ -4,28 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>HTML & CSS - Introduction</title>
-    <style>
-        header > img{
-            float: left;
-        }
-        nav{
-            float: right;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!--HTML header tag starts here-->
+    <!--HTML header area starts here-->
     <header>
-        <a href="/html-css-introduction/index.html">
-            <img src="img/logo.png" alt="Website logo">
-        </a>
         <nav>
-            <a href="/test1">test1</a>
-            <a href="/test2">test2</a>
-            <a href="/test3">test3</a>
-            <a href="/test4">test4</a>
+            <a href="#first" class="logo">
+                <img src="img/logo.png" alt="websiteLogo">
+            </a>
+            <a href="#about">About me</a>
+            <a href="#work">My work</a>
+            <a href="#contact">Contact me</a>
         </nav>
     </header>
-    <!--HTML header tag ends here-->
-</body>
+    <!--HTML header area ends here-->
+
+    <!--HTML main area starts here-->
+    <main>
+        <!--About me section starts here-->
+        <section id="about">
+            <h1>About me</h1>
+        </section>
+        <!--About me section ends here-->
+
+        <!--Project section starts here-->
+        <section id="projects">
+            <h1>Projects</h1>
+        </section>
+        <!--Project section ends here-->
+
+        <!--Contact section starts here-->
+        <section id="contact">
+            <h1>Contact me</h1>
+        </section>
+        <!--Contact section ends here-->
+    </main>
+    <!--HTML main area ends here-->
+
+    <!--HTML footer area starts here-->
+    <footer>
+      Þorbergur Haraldsson - HTML & CSS - Introduction
+    </footer>
+    <!--HTML footer area ends here-->
+  </body>
 </html>

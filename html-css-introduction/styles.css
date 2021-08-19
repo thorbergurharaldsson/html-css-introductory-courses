@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header > nav {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+header > nav > a {
+    text-decoration: none;
+    color: #1ac;
+    margin-right: 20px;
+}
+
+section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: #eee;
+}
+  
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: #fff;
+    color: #da2;
+    position: sticky;
+    bottom: 0;
+}
