@@ -27,12 +27,31 @@ header > nav > a {
 }
 
 section {
-    height: 100vh;
+    height: 50vh;
     display: grid;
     place-items: center;
     font-size: 50px;
     font-weight: bold;
     background: #eee;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.5em;
+}
+li {
+    padding-left: 1.3em; 
+}
+li:before {
+    content: "\f054"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+ul > ul {
+    margin-left: 2em;
 }
   
 footer {
@@ -44,4 +63,20 @@ footer {
     color: #da2;
     position: sticky;
     bottom: 0;
+}
+
+.contactIcons .contactIcon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.contactIcons > a{
+    text-decoration: none;
 }
