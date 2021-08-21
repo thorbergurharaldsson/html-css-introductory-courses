@@ -1,0 +1,32 @@
+.poster{
+    background-color: darkcyan;
+    color: #fff46b;
+    font-family:monospace;
+    text-align: center;
+    padding: 0px 20px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.button{
+    background-color: rgb(41 20 59);
+    border: none;
+    color: #fff46b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family:monospace;
+    text-transform: uppercase;
+    font-weight: oblique;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 00.5em;
+}
+h1{
+    font-size: 6em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: oblique;
+}
